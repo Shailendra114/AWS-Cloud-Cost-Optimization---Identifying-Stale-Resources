@@ -42,3 +42,11 @@ By distributing content across multiple locations, CDNs reduce latency, improve 
 
 **Why CDNs Are Important:**
 
+   **Reducing Latency:** CDNs minimize the delay caused by the internet’s global and complex nature. They bring content closer to users, reducing the time it takes to load webpages.
+
+**Efficiency:** CDNs decrease web traffic to the origin server, reducing bandwidth consumption and hosting costs for website owners.
+Content Availability: CDNs handle high web traffic and prevent website crashes. Even if some CDN servers go offline, others take over to ensure uninterrupted service.
+
+**Security:** CDNs can mitigate Distributed Denial-of-Service (DDoS) attacks by absorbing fake traffic before it reaches the origin server1.
+
+
