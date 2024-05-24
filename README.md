@@ -24,3 +24,21 @@ AWS CloudFront solves several problems related to content delivery and web perfo
 
 Overall, AWS CloudFront improves the performance, scalability, availability, and security of web applications and content delivery, making it an essential tool for modern web development and content distribution strategies.
 
+**How a CDN Works:**
+
+When a user visits a website, data from that website’s server has to travel across the internet to reach the user’s computer. If the user is located far from that server, it can take a long time to load large files, such as videos or website images.
+CDNs address this issue by storing website content on servers geographically closer to the users. These CDN servers act as intermediaries between the client (user’s computer) and the website server.
+
+**Here’s how it works:
+Caching**: CDNs cache (store) copies of website content (such as images, videos, scripts) on their servers. When a user requests a specific resource, the CDN delivers it from the nearest server instead of fetching it from the original website server.
+
+**Dynamic Acceleration:**
+CDNs optimize content delivery by dynamically adjusting the route and using faster connections. They choose the best server based on proximity, network conditions, and server load.
+
+**Edge Logic Computations:**
+CDNs can execute logic at the edge (near the user) to customize responses. For example, they can compress images, minify scripts, or even serve personalized content.
+
+By distributing content across multiple locations, CDNs reduce latency, improve load times, and enhance the user experience.
+
+**Why CDNs Are Important:**
+
