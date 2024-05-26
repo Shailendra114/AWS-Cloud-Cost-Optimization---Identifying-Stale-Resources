@@ -152,6 +152,34 @@ Implement caching strategies based on content type and access patterns.
 Enable compression and minification to reduce file sizes and improve load times.
 Utilize CloudFront's content delivery optimizations, such as HTTP/2 and HTTP/3 support.
 
+**What are the pricing considerations for using AWS CloudFront?**
+
+**Answer:** AWS CloudFront pricing is based on several factors, including data transfer out to end-users, requests (HTTP/HTTPS and invalidation requests), data transfer between AWS services (e.g., S3, EC2, and Lambda), and optional features such as field-level encryption and real-time logs. Additionally, pricing may vary based on the geographic regions served and the volume of traffic. It's essential to consider these factors when estimating costs and optimizing content delivery strategies.
+
+
+**Describe a scenario where you would recommend using AWS CloudFront in an architecture.**
+
+**Answer:** AWS CloudFront is recommended in scenarios where:
+The application serves global audiences and requires low-latency content delivery.
+The application experiences high traffic volumes and requires scalability.
+The application serves static and dynamic content that can benefit from caching.
+Security features such as HTTPS support, signed URLs, and WAF integration are required.
+Cost-effectiveness and pay-as-you-go pricing models are preferred.
+
+
+**What are the common challenges or limitations when using CloudFront, and how can they be addressed?**
+
+**Answer:** Some common challenges or limitations when using CloudFront include:
+Cache Invalidation: Invalidating cached content can be time-consuming and incur additional costs. Strategies such as versioned URLs or cache control headers can mitigate this challenge.
+Cold Start Latency: Occasionally, CloudFront may experience higher latency during cache warm-up periods or when fetching content from the origin server. Architectural optimizations such as pre-warming caches or using regional edge caches can help mitigate cold start latency.
+Pricing Considerations: CloudFront pricing can vary based on usage patterns, geographic regions, and optional features. Cost optimization strategies such as caching frequently accessed content and optimizing cache hit ratios can help manage costs effectively.
+
+
+**Can you explain how CloudFront handles HTTP/2 and HTTP/3 protocols?**
+
+**Answer:** CloudFront supports both the HTTP/2 and HTTP/3 protocols for improved performance and security. HTTP/2 enables multiplexing, header compression, and server push, reducing latency and improving page load times. HTTP/3, based on the QUIC protocol, further enhances performance by addressing the limitations of TCP-based connections, such as head-of-line blocking and connection setup overhead. CloudFront automatically negotiates the appropriate protocol based on client support and optimizes content delivery accordingly.
+
+
 
 
 
