@@ -353,7 +353,7 @@ In a real-world application deployment scenario, ECR could be used to store and 
 
 # AWS ECS (Elastic Container Service) :- 
 
-The rise of containerization technologies like Docker, which simplified the packaging and distribution of applications but introduced complexities in orchestration and management. In summary, the lack of automation, scalability, fault tolerance, and security features in the early days of containerization made it difficult to deploy and manage containerized applications at scale. COEs like Kubernetes, Docker Swarm,GKE(google kubernetes engine), AKS(azuyre kubernetes service ) and Apache Mesos emerged to address these challenges by providing automation, orchestration, and management capabilities that simplify the deployment, scaling, and operation of containerized applications in modern cloud-native environments.
+The rise of containerization technologies like Docker, which simplified the packaging and distribution of applications but introduced complexities in orchestration and management. In summary, the lack of automation, scalability, fault tolerance, and security features in the early days of containerization made it difficult to deploy and manage containerized applications at scale. COEs like Kubernetes, Docker Swarm, ECS(elastice container servcie) and Apache Mesos emerged to address these challenges by providing automation, orchestration, and management capabilities that simplify the deployment, scaling, and operation of containerized applications in modern cloud-native environments.
 
 **Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS) are both container orchestration services provided by AWS, but they differ in their underlying technology and approach to container management:**
 
@@ -390,6 +390,12 @@ The rise of containerization technologies like Docker, which simplified the pack
 
 
 In summary, the choice between ECS and EKS depends on factors such as familiarity with AWS services, preference for managed vs. self-managed solutions, and specific requirements for container orchestration and management. ECS offers simplicity and integration with AWS services, while EKS provides flexibility and compatibility with the Kubernetes ecosystem.
+
+
+Kubernetes is an open source coantiner orchestration environment. On top of it maany comapny have made their own distribution like AKS(Azure kubernetes service), GKE(google kubernetes engine), EKS( elastic kubernetes service), openshift, etc.
+
+
+
 
 
 
