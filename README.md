@@ -353,6 +353,11 @@ In a real-world application deployment scenario, ECR could be used to store and 
 
 # AWS ECS (Elastic Container Service) :- 
 
+The rise of containerization technologies like Docker, which simplified the packaging and distribution of applications but introduced complexities in orchestration and management. In summary, the lack of automation, scalability, fault tolerance, and security features in the early days of containerization made it difficult to deploy and manage containerized applications at scale. COEs like Kubernetes, Docker Swarm,GKE(google kubernetes engine), AKS(azuyre kubernetes service ) and Apache Mesos emerged to address these challenges by providing automation, orchestration, and management capabilities that simplify the deployment, scaling, and operation of containerized applications in modern cloud-native environments.
+
+
+
+
 
 
 
