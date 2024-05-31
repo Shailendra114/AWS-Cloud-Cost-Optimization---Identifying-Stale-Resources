@@ -351,6 +351,9 @@ Answer:
 In a real-world application deployment scenario, ECR could be used to store and manage Docker container images for a microservices-based web application running on Amazon ECS. Developers can push Docker images to ECR repositories during the CI/CD pipeline, and ECS can pull these images directly from ECR when launching or updating containerized tasks. ECR provides secure and scalable storage for Docker images, integration with AWS IAM for access control, and seamless integration with ECS for deploying and managing containerized applications.
 
 
+# AWS ECS (Elastic Container Service) :- 
+
+
 
 
 
