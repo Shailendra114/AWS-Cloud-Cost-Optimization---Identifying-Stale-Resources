@@ -428,6 +428,21 @@ Kubernetes is an open source coantiner orchestration environment. On top of it m
 **Integrate with Other AWS Services:** ECS integrates with other AWS services like ELB (Elastic Load Balancing) for distributing incoming traffic, CloudWatch for monitoring and logging, IAM for security, and more.
 
 
+# AWS EKS (Elastic Kubernetes Srvice) :-
+
+AWS EKS is a managed kubernetes service prvided by AWS. It allows you to rin kubernetes (k8s) clusters opn AWS infrastrucure without needing to install, operate, or maintin your own kubernetes control plane.
+
+Before starting EKS, its important to learn Kubernetes (k8s), which is an open source conatianer orchestration software or environment. 
+
+So lets start with Kubernetes :-
+
+# Kubernetes (K8s):-
+
+
+
+
+
+
 
 
 
