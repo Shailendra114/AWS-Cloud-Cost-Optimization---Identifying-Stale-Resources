@@ -474,6 +474,10 @@ Performance:
 **Containers:** Containers have lower overhead compared to VMs because they share the host OS kernel, resulting in faster startup times and better performance, especially for lightweight and short-lived workloads.
 
 
+Now lets understand the containers in details then docker and then jump on kubernetes:-
+
+###Containers
+
 
 
 
