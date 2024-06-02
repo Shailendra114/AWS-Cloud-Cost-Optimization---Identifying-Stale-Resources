@@ -438,6 +438,44 @@ So lets start with Kubernetes :-
 
 # Kubernetes (K8s):-
 
+We use servers to deploy applications. Earlier for each application or for each layer of application we use seperate servers so that they work properly and work accordingly but it was using a lot of resourecs and even we were never able to utilize the resources properly. 
+
+Simply putting, it was wasting of resorces and money. That's why engineers built concepts of VMS (virtual machines) where with the help of some software like hypervisor etc we can convert a single servers into multiple virtual machine having their own OS, CPU and storage. 
+
+Here the problem was their since each VM have their own OS then it was taking a lot of booting time to start the application also they were using a lot of resoures and here also as each vm have their own OS, CPU and Sotrage that's why it was not utilizing the resources properly and wastage of resources was their.
+
+To overcome this issue, engineers come up with the concept of container. 
+
+**A container is a lightweight, portable, and self-sufficient unit of software that encapsulates an application, its dependencies, libraries, and configuration files needed to run, into a single package. Containers are designed to run consistently across different environments, from development to production, without requiring changes to the underlying infrastructure or system configuration.**
+
+
+
+**The major differences between Virtual Machines (VMs) and containers lie in their architecture, isolation level, resource utilization, and deployment model:**
+
+**Architecture:**
+
+**VMs:** Each VM runs its own complete operating system (OS) instance on top of a hypervisor, which abstracts and manages the physical hardware.
+**Containers:** Containers share the host OS kernel and run isolated user-space instances, each containing the application code, dependencies, and libraries needed to run.
+Isolation:
+
+**VMs:** VMs provide strong isolation, with each VM having its own kernel, filesystem, and network stack, making them more secure but heavier in terms of resource consumption.
+**Containers:** Containers offer lightweight isolation, sharing the host OS kernel, which makes them more efficient in terms of resource utilization but potentially less secure if not properly configured.
+Resource Utilization:
+
+**VMs:** VMs allocate fixed resources (CPU, memory, storage) to each virtual machine, often leading to resource inefficiency as resources allocated to VMs may remain unused.
+**Containers:** Containers consume fewer resources compared to VMs because they share the host OS kernel and only include the application code and dependencies needed to run, resulting in better resource utilization.
+Deployment Model:
+
+**VMs:** VMs are typically deployed as self-contained images, including the OS, application code, and dependencies. They are more portable than traditional physical servers but less portable than containers.
+**Containers:** Containers package the application code and its dependencies into a single deployable unit, making them highly portable across different environments, from development to production.
+Performance:
+
+**VMs:** VMs introduce some overhead due to the duplication of OS and other system-level components for each VM. This overhead can affect performance, especially in scenarios where many VMs are running on the same host.
+**Containers:** Containers have lower overhead compared to VMs because they share the host OS kernel, resulting in faster startup times and better performance, especially for lightweight and short-lived workloads.
+
+
+
+
 
 
 
